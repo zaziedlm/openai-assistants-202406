@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "openai-assistants-202406"
+version = "0.1.0"
+description = ""
+authors = ["Shuichi Kataoka <shu01k9@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.35.3"
+langchain = "^0.2.5"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
